@@ -26,7 +26,7 @@ global.loggedIn = null
 const server = express()
 
 // MongoDB URI
-const uri = "mongodb+srv://MattAdmin:YNxJwYxMaLeidJgT@cluster0.bh0rb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://<user>:<password>@cluster0.bh0rb.mongodb.net/<DB>?retryWrites=true&w=majority"
 
 // Connect to the MongoDB cluster
 mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true });
